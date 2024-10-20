@@ -1,0 +1,209 @@
+*{
+    text-decoration: none;
+}
+.nav{
+    border: 1px solid gray;
+    background-color: white; 
+    padding-right: 15px;
+    padding-left: 15px;
+}
+nav li + li::before{
+    content: "|";
+    padding: 10px;
+}
+.ndiv{
+    display: flex;
+}
+.logo{
+    color: black;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600; 
+    color: black;
+}
+.logo a:hover{
+    color: blue;
+}
+.u1 li{
+    list-style: none; 
+    display: inline-block;
+}
+li a{
+    
+    color: black; 
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-right: 25px;
+}
+li a:hover{
+    color: blue;
+}
+body{
+    background-color: aliceblue;
+}
+.d1{
+    margin-top: 50px;
+    margin-left: 500px;
+    position: relative;
+    padding: 50px;
+    border: 1px solid gray;
+    background-color: white;
+    height: 80px;
+    width: 800px;
+}
+.s1{
+    font-size: larger;
+    font-weight: bold;
+}
+.d1 p{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.d2{
+    margin-left: 500px;
+    position: relative;
+    padding: 50px;
+    border: 1px solid gray;
+    background-color: white;
+    height: 100%;
+    width: 800px;
+    border-top: 0px;
+}
+.d2 p{
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p1 a{
+    text-decoration: underline;
+    color: gray;
+}
+.p1 a:hover{
+    color: blue;
+}
+ul li{
+    color: gray;
+    padding: 3px;
+}
+.d4{
+    position: relative;
+    border: 1px solid gray;
+    background-image: url(prasanna.jpg);
+    background-size: cover;
+    border-radius: 80px;
+    background-position-x: 5px;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.s2{
+    margin-left: 100px;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;   
+}
+.d5{
+    position: relative;
+    margin-left: 100px;
+}
+.a2{
+    color: gray;
+}
+.a2:hover{
+    color: blue;
+}
+.d6{
+    position: relative;
+    margin-left: 55px;
+    width: 300px;
+    padding: 40px;
+}
+.d7{
+    margin-left: 40px;
+}
+.d8{
+    color: gray;
+    position: static;
+    width: 340px;
+    margin-left: 93px;
+}
+.s3{
+    margin-left: 55px;
+}
+#s8{
+    float: left;
+}
+.b1{
+    height: 50px;
+    width: 150px;
+}
+.b1 a{
+    padding: 20px;
+    color: gray;
+}
+.a3:hover{
+    color: blue;
+}
+.a4{
+    text-decoration: underline;
+    color: gray;
+}
+.a5{
+    text-decoration: underline;
+    color: gray;
+}
+.a6{
+    text-decoration: underline;
+    color: gray;
+}
+.a7{
+    text-decoration: underline;
+    color: gray;
+}
+.a8{
+    text-decoration: underline;
+    color: gray;
+}
+.a9{
+    text-decoration: underline;
+    color: gray;
+}
+.d9{
+    position: relative;
+    margin-left: -40px;
+    width: 330px;
+    padding: 40px;
+}
+.d10 i{
+    color: gray;
+    display: inline;
+    justify-content: space-evenly;
+}
+.d10 i:hover{
+    color: blue;
+}
+.d11 a{
+    color: gray;
+    text-decoration: underline;
+    padding: 0px;
+}
+.d11 a:hover{
+    color: blue;
+}
+.p3 a:hover{
+    color: blue;
+}
+.s9{
+    display: flex;
+    justify-content: space-between;
+}
+.fa-copyright{
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.l1 a{
+    text-decoration: dotted;
+    color: grey;
+}
